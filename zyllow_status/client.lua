@@ -9,7 +9,7 @@ end)
 
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(1000)
+        Citizen.Wait(5000)
         local players = GetNumberOfPlayers()
         local serverName = Config.ServerName
 
